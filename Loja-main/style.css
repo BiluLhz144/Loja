@@ -20,42 +20,45 @@ height: 100vh;
 
 
 
-.cabeçario {
-
-
-
-display: flex;
-
-}
-
-
 
 
 .logotipo{
-    background-color: #080808;
+    background-color: #000000;
     display: flex;
-    align-items: center;
-    
-    justify-content: space-around;
+   
 }
 
 
 
-.barradepesquisa{
+.searchbox{
+padding-left: 400px;
+padding-top: 3%;
 
-width: 10%;
-padding-left: 18%;
-padding-top: 2%;
-height: 3%;
+
+
 }
+
+.searchbox, input {
+    font-size: 1.5em;
+}
+
+
+  
+
+
+
+
+
+
+
 
 
 .bemvindo{
 
  width: 8%;
  height: 3%;
- padding-top: 40px;
- padding-left: 1%;
+ padding-top: 60px;
+padding-left:20px;
 
 }
 
@@ -64,16 +67,20 @@ height: 3%;
 
     width: 6%;
     height: 3%;
-    padding-right: 60%;
+  
 
 }
 
 
+
+
+
 .cadastro{
 
-    width: 30%;
-    height: 3%;
-    padding-top: 50px;
-    padding-left: 25%;
+    width: 20%;
+    height: 10%;
+    padding-top: 60px;
+    padding-left: 600px;
+    padding-right: 50px;
 }
 
